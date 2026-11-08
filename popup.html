@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT Bookmarks</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>ChatGPT Bookmarks</h1>
+      <p>저장한 응답의 소제목으로 이동합니다.</p>
+    </div>
+    <span id="count">0</span>
+  </header>
+  <main>
+    <div id="empty" class="empty" hidden>
+      아직 저장된 북마크가 없습니다.<br>
+      ChatGPT 답변의 소제목 옆 ☆를 눌러 저장하세요.
+    </div>
+    <div id="bookmark-list" class="bookmark-list"></div>
+  </main>
+  <footer>
+    <button id="clear-all" class="clear-button" type="button">전체 삭제</button>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
