@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Learning Bookmarks",
+  "name": "ChatGPT Bookmarks",
   "version": "1.2.2",
   "description": "Bookmark headings inside ChatGPT answers and jump back to them later.",
   "permissions": [
